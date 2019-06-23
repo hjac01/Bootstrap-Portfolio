@@ -1,0 +1,39 @@
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff; 
+    text-align: center; 
+    font-family: 'Georgia' , 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    padding: 20px; 
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 15px; 
+}
+
+.aboutme {
+    background-color: #ffffff;
+    border-style: solid; 
+    border-color: #cccccc;
+    padding: 50px;
+    margin: 0; 
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    word-spacing: 8px;
+
+}
+
+.line {
+    border: 1px solid #cccccc;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+
+body {
+    background-image: url("united-squares-negative.png")
+}
