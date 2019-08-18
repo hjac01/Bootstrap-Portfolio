@@ -4,64 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+ 
+   
+    
     <title>Hannah Jacoby</title>
+
+          <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </div>      
+        
 </head>
 
+<body>
 <body background="images/united-squares-negative.png">
 
-
-   
-    <h1>Hannah Jacoby</h1>
-
-    <nav class="navbar navbar-toggleable-sm navbar-fixed-top nav-pills flex-sm-row">
-      
-        <div class="container">
-                        <a class="flex-sm-fill text-sm-center nav-link" href="index.html">About</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact</a>
-                
-
-
-         </div>
-        
-    </nav>
-
-
-    <div class="container aboutme">
-
-
-        <h2>About Me</h2>
-
-        <hr class="line">
-        </hr>
-
-        <div class=bioimage>
-            <img src="images/me.png" alt="Hannah Jacoby" class="img-fluid">
-        </div>
-
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt autem nemo dicta quisquam modi
-            illo numquam, non ut veritatis consequatur quos odit praesentium sed et labore nesciunt aliquid amet
-            voluptas sequi esse cumque delectus vero velit? Aliquid ad debitis deserunt rem ex, excepturi pariatur
-            voluptatibus eum ipsam voluptatum ea.
-        </p>
+    <div class="project-container">
+            <div class="bd-example">
+                    <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+                      
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <a href="https://kknosala.github.io/DarkHorse/"></a>    
+                          <img src="images/black-pegasus.png" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>DarkHorse</h5>
+                            <p>Curating the Unexpected</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://hjac01.github.io/Train-Scheduler/"></a>
+                          <img src="images/clockrevised.png" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Train Scheduler</h5>
+                            <p>Schedule Trains in Real Time!</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                                <a href="https://hjac01.github.io/unit-4-game/"></a>
+                          <img src="images/crystals.png" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Crystals Collector</h5>
+                            <p>Collect as many Crystals as the total to Win!</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+            
 
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
-</body>
+    
+   
+  <script>
+      $(function(){
+       
+        $('#myCarousel').carousel();
+      });
+      </script>
+  </body>
 
 <footer>
     <div id="footer">
