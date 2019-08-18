@@ -1,5 +1,19 @@
 .carousel {
-    width:640px;
-    height:360px;
+    width:680px;
+    height:730px;
+    display:flex;
    
   }
+
+.carousel-caption {
+  text-align: center; 
+  background-color: black;
+  display:flex;
+}  
+
+.jumbotron {
+  text-align: center; 
+  background-color:gainsboro; 
+  display:flex;
+}
+
