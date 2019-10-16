@@ -1,9 +1,15 @@
 .carousel {
-    width:680px;
-    height:730px;
-    display:flex;
+  display:block;
+  width:60%;
+  height: auto;
+  float: right; 
+    
    
   }
+  .col-centered {
+    float: left;
+    margin: 0 auto;
+ }
 
 .carousel-caption {
   text-align: center; 
@@ -14,6 +20,7 @@
 .jumbotron {
   text-align: center; 
   background-color:gainsboro; 
+  padding: 0.5em 0.6em;
 
 }
 
