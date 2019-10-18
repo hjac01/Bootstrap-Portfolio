@@ -24,3 +24,13 @@
 
 }
 
+.about-container {
+ float: right;
+ margin: 0 auto; 
+
+}
+
+#googleForm{
+  text-align: center;
+}
+
